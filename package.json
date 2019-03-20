@@ -1,0 +1,25 @@
+{
+  "name": "css_inliner",
+  "version": "1.0.0",
+  "description": "A javascript library for inlining css code drirectly inside html file. It can search in other included css files in html and inline them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelalagbe/CSS-Inliner.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "inliner",
+    "css-inliner"
+  ],
+  "author": "Israel Alagbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelalagbe/CSS-Inliner/issues"
+  },
+  "homepage": "https://github.com/israelalagbe/CSS-Inliner#readme"
+}
