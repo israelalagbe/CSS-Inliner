@@ -2,12 +2,12 @@
   "name": "css-inliner",
   "version": "1.0.0",
   "description": "A javascript library for inlining css code directly inside html file. It can search in other included css files in html and inline them",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "css-inliner": "./index.js"
+    "css-inliner": "./cli.js"
   },
   "repository": {
     "type": "git",
