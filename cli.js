@@ -52,6 +52,7 @@ if (args.length < 2) {
 } else {
     const CSSInliner = require('css-inliner');
     const fs = require('fs');
+    const path=require('path')
     const sourceFile = args[0];
     const targetFile = args[1];
 
@@ -65,7 +66,7 @@ if (args.length < 2) {
         if (fs.existsSync(sourceFile)) {
             let html = fs.readFileSync(sourceFile, 'utf8')
             const inliner = new CSSInliner({
-                directory: './'
+                directory: path.dirname(sourceFile)
             });
             inliner.on('warning', function (warning) {
                 console.log(colors.bg.Black, colors.fg.Yellow, `${warning}`, colors.Reset);
