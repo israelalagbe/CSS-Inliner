@@ -10,7 +10,7 @@
 > Install your package globally
 
 ```shell
-$ npm install -g css-inline
+$ npm install -g css-inline-tool
 ```
 
 ### Usage

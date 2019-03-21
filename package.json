@@ -1,6 +1,6 @@
 {
-  "name": "css-inline",
-  "version": "1.0.0",
+  "name": "css-inline-tool",
+  "version": "1.0.1",
   "description": "A javascript library for inlining css code directly inside html file. It can search in other included css files in html and inline them",
   "main": "cli.js",
   "scripts": {
